@@ -1,5 +1,6 @@
 <?php
-$name = 'Nathalie';
+$tab=array(59=>'Nord', 62=>'Pas-de-calais', 02=>'Aines',60=>'Oise',80=>'Somme');
+$tab[51]= 'Marnes';
 ?>
 
 <!DOCTYPE html>
@@ -24,13 +25,9 @@ $name = 'Nathalie';
     </header>
     <main class="container- fluid">
     <div class="row">
-            <div class="results position-absolute top-50 start-50 translate-middle ">
-                <p>
-                    <?php
-                        echo ;
-                    ?>
-                </p>
-            </div>
+            <!-- <div class="results "> -->
+            <?php var_dump($tab) ?>
+            <!-- </div> -->
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

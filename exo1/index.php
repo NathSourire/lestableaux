@@ -1,5 +1,5 @@
 <?php
-$name = 'Nathalie';
+$month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','aout','spetembre','octobre','novembre','decembre'];
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ $name = 'Nathalie';
             <div class="results position-absolute top-50 start-50 translate-middle ">
                 <p>
                     <?php
-                        echo ;
+
                     ?>
                 </p>
             </div>
