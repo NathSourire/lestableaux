@@ -1,5 +1,5 @@
 <?php
-$name = 'Nathalie';
+$tab=array('59'=>'Nord', '62'=>'Pas-de-calais', '02'=>'Aines','60'=>'Oise','80'=>'Somme');
 ?>
 
 <!DOCTYPE html>
@@ -26,11 +26,13 @@ Cela pourra être, par exemple, de la forme : Le département + nom du départem
     <main class="container- fluid">
     <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
-                <p>
-                    <?php
-                        echo ;
-                    ?>
-                </p>
+            <?php
+                foreach ($tab as $key => $value) { ?>
+                    <p> 
+                        <?= ' Le département est "' .$value. '" son numéro est ' .$key ?>
+                    </p>
+                <?php }
+                ?>
             </div>
         </div>
     </main>

@@ -1,5 +1,5 @@
 <?php
-$name = 'Nathalie';
+$tab = array(59 => 'Nord', 62 => 'Pas-de-calais', 02 => 'Aines', 60 => 'Oise', 80 => 'Somme');
 ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,16 @@ $name = 'Nathalie';
             <p>Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau.</p>
         </div>
     </header>
-    <main class="container- fluid">
-    <div class="row">
+    <main class="container-fluid">
+        <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
-                <p>
-                    <?php
-                        echo ;
-                    ?>
-                </p>
+                <?php
+                foreach ($tab as $key => $value) { ?>
+                    <p>
+                        <?= $value ?>
+                    </p>
+                <?php }
+                ?>
             </div>
         </div>
     </main>

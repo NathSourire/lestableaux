@@ -1,5 +1,5 @@
 <?php
-$month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','août','spetembre','octobre','novembre','decembre'];
+$month = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'spetembre', 'octobre', 'novembre', 'decembre'];
 ?>
 
 <!DOCTYPE html>
@@ -22,10 +22,14 @@ $month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','août','s
             <p>Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.</p>
         </div>
     </header>
-    <main class="container- fluid">
-    <div class="row">
-            <div class="results  ">
-
+    <main class="container-fluid">
+        <div class="row">
+            <div class="results">
+                <?php
+                foreach ($month as $key => $value) { ?>
+                    <p><?= $value?></p>
+                <?php }
+                ?>
             </div>
         </div>
     </main>
