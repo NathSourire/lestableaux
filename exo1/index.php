@@ -19,11 +19,31 @@ $name = 'Nathalie';
         <div class="row">
             <img class="imgLogo col-3" src="./public/assets/img/PHP-logo.png" alt="Logo PHP">
             <h1 class="col-7">Exercice 1</h1>
-            <p>Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p>
+            <p>Créer un tableau months et l'initialiser avec les valeurs suivantes :
+                janvier
+                février
+                mars
+                avril
+                mai
+                juin
+                juillet
+                aout
+                septembre
+                octobre
+                novembre
+                décembre</p>
         </div>
     </header>
-    <main class="">
-
+    <main class="container- fluid">
+    <div class="row">
+            <div class="results position-absolute top-50 start-50 translate-middle ">
+                <p>
+                    <?php
+                        echo ;
+                    ?>
+                </p>
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
