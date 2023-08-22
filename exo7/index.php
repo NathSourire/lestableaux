@@ -1,6 +1,6 @@
 <?php
-$tab=array(59=>'Nord', 62=>'Pas-de-calais', 02=>'Aines',60=>'Oise',80=>'Somme');
-$tab[51]= 'Marnes';
+$tab = array(59 => 'Nord', 62 => 'Pas-de-calais', 02 => 'Aines', 60 => 'Oise', 80 => 'Somme');
+$tab[51] = 'Marnes';
 ?>
 
 <!DOCTYPE html>
@@ -23,11 +23,9 @@ $tab[51]= 'Marnes';
             <p>Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims.</p>
         </div>
     </header>
-    <main class="container- fluid">
-    <div class="row">
-            <!-- <div class="results "> -->
+    <main class="container-fluid">
+        <div class="row">
             <?php var_dump($tab) ?>
-            <!-- </div> -->
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

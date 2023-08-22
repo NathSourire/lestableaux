@@ -1,6 +1,12 @@
 <?php
-$month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','aout','spetembre','octobre','novembre','decembre'];
+$month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre'];
+// pour trouver l'index (int(7))
+$index = array_search('aout', $month);
+var_dump($index);
+// ici on le modifie
 $month[7] = 'août';
+
+
 ?>
 
 <!DOCTYPE html>

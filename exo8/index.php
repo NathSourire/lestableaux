@@ -1,5 +1,5 @@
 <?php
-$month = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'spetembre', 'octobre', 'novembre', 'decembre'];
+$month = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'decembre'];
 ?>
 
 <!DOCTYPE html>
@@ -24,13 +24,13 @@ $month = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aoû
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class="results">
-                <?php
-                foreach ($month as $key => $value) { ?>
-                    <p><?= $value?></p>
-                <?php }
-                ?>
-            </div>
+            <?php
+            foreach ($month as $key => $value) { ?>
+                <p>
+                    <?= $value ?>
+                </p>
+            <?php }
+            ?>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

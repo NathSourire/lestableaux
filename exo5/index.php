@@ -34,10 +34,8 @@ $tab=array(59=>'Nord', 62=>'Pas-de-calais', 02=>'Aines',60=>'Oise',80=>'Somme');
     </header>
     <main class="container- fluid">
     <div class="row">
-            <!-- <div class="results position-absolute top-50 start-50 translate-middle "> -->
-                <!-- <p><?php var_dump($tab) ?></p> -->
-            <!-- </div> -->
-        </div>
+        <?php var_dump($tab) ?>
+    </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

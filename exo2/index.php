@@ -1,5 +1,5 @@
 <?php
-$month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','aout','spetembre','octobre','novembre','decembre'];
+$month = ['janvier', 'fevrier', 'mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre'];
 ?>
 
 <!DOCTYPE html>
